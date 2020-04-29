@@ -57,7 +57,7 @@ void loop() {
             client.println(ip);
             client.println("</p>");     // ...  주소
 
-            client.print("Click <a href=\"/H\">here</a> turn the LED on pin 23 on<br>");
+            client.print("Click <a href=\"/H\">here</a> turn the LED on pin 23 ON<br>");
             client.print("Click <a href=\"/L\">here</a> turn the LED off pin 23 OFF<br>");
 
             //client.print("<p>SSID : ");
