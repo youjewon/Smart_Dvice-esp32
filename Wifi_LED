@@ -1,6 +1,6 @@
 #include <WiFi.h>
 
-const char* ssid     = "YSO";    // 연결할 SSID
+const char* ssid     = "";    // 연결할 SSID
 const char* password = "";     // 연결할 SSID의 비밀번호
 IPAddress ip;
 int status = WL_IDLE_STATUS;
